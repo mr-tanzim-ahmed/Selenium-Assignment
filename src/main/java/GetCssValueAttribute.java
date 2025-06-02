@@ -10,8 +10,9 @@ public class GetCssValueAttribute {
         WebDriver driver = new ChromeDriver();
         driver.get("https://demo.guru99.com/test/newtours/register.php?authuser=0");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-
-        List<WebElement> elements = driver.findElements(By.cssSelector("input"));
+        
+        List<WebElement> elements = driver.findElements(By.tagName("input"));
+        //List<WebElement> elements = driver.findElements(By.cssSelector("input")); //Alternative
 
         for(WebElement e: elements){
             String fontSize = e.getCssValue("font-size");
