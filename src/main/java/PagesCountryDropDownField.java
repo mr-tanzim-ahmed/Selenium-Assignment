@@ -11,7 +11,6 @@ public class PagesCountryDropDownField {
         driver.get("https://demo.guru99.com/test/newtours/register.php?authuser=0");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         Select select = new Select(driver.findElement(By.cssSelector("select[name='country']")));
         select.selectByVisibleText("BANGLADESH");
 
