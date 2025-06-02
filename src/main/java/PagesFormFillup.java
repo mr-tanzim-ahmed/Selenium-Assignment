@@ -36,7 +36,7 @@ public class PagesFormFillup {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         //Login Page
         WebDriver.Navigation nav = driver.navigate();
-        driver.navigate().refresh();
+        nav.refresh();
         nav.to("https://demo.guru99.com/test/newtours/login.php");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
