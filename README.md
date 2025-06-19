@@ -1,4 +1,4 @@
-# Task
+# Assignment 1
 
 1. Create a Gradle Project for Selenium
 2. Add Selenium & Testng dependency
