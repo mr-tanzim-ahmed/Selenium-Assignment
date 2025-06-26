@@ -1,0 +1,16 @@
+Index: Selenium-Assignment.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module external.linked.project.id=\"Selenium-Assignment\" external.linked.project.path=\"$MODULE_DIR$\" external.root.project.path=\"$MODULE_DIR$\" external.system.id=\"GRADLE\" external.system.module.group=\"test\" external.system.module.version=\"1.0-SNAPSHOT\" type=\"JAVA_MODULE\" version=\"4\">\n  <component name=\"AdditionalModuleElements\">\n    <content url=\"file://$MODULE_DIR$\" dumb=\"true\">\n      <excludeFolder url=\"file://$MODULE_DIR$/.idea/modules\" />\n    </content>\n  </component>\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\n    <exclude-output />\n    <content url=\"file://$MODULE_DIR$\">\n      <excludeFolder url=\"file://$MODULE_DIR$/.gradle\" />\n      <excludeFolder url=\"file://$MODULE_DIR$/build\" />\n      <excludeFolder url=\"file://$MODULE_DIR$/.idea/modules\" />\n    </content>\n    <orderEntry type=\"inheritedJdk\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n  </component>\n</module>
+===================================================================
+diff --git a/Selenium-Assignment.iml b/Selenium-Assignment.iml
+--- a/Selenium-Assignment.iml	(revision 79bdc92d4094658433b84cb6b62f623632e95d9f)
++++ b/Selenium-Assignment.iml	(date 1750352168715)
+@@ -10,7 +10,6 @@
+     <content url="file://$MODULE_DIR$">
+       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+       <excludeFolder url="file://$MODULE_DIR$/build" />
+-      <excludeFolder url="file://$MODULE_DIR$/.idea/modules" />
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
